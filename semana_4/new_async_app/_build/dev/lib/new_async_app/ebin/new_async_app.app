@@ -1,0 +1,11 @@
+{application,new_async_app,
+             [{config_mtime,1728676579},
+              {optional_applications,[]},
+              {applications,[kernel,stdlib,elixir,logger]},
+              {description,"new_async_app"},
+              {modules,['Elixir.NewAsyncApp','Elixir.NewAsyncApp.Application',
+                        'Elixir.NewAsyncApp.Supervisor',
+                        'Elixir.NewAsyncApp.Worker']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.NewAsyncApp.Application',[]}}]}.
