@@ -1,0 +1,10 @@
+{application,task_manager,
+             [{config_mtime,1728679500},
+              {optional_applications,[]},
+              {applications,[kernel,stdlib,elixir,logger]},
+              {description,"task_manager"},
+              {modules,['Elixir.TaskManager','Elixir.TaskManager.Application',
+                        'Elixir.TaskManager.Server']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.TaskManager.Application',[]}}]}.
