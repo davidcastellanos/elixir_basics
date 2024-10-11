@@ -1,0 +1,10 @@
+{application,empresa,
+             [{config_mtime,1728667272},
+              {optional_applications,[]},
+              {applications,[kernel,stdlib,elixir,logger,jason,decimal]},
+              {description,"empresa"},
+              {modules,['Elixir.Empresa','Elixir.Empresa.Employee',
+                        'Elixir.Jason.Encoder.Empresa.Employee',
+                        'Elixir.Reader','Elixir.Writer']},
+              {registered,[]},
+              {vsn,"0.1.0"}]}.
